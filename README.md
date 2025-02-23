@@ -3,13 +3,13 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 4.4.0 |
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 4.10.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 4.4.0 |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 4.10.0 |
 
 ## Modules
 
@@ -19,7 +19,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [azurerm_key_vault.this](https://registry.terraform.io/providers/hashicorp/azurerm/4.4.0/docs/resources/key_vault) | resource |
+| [azurerm_key_vault.this](https://registry.terraform.io/providers/hashicorp/azurerm/4.10.0/docs/resources/key_vault) | resource |
 
 ## Inputs
 
@@ -28,7 +28,7 @@ No modules.
 | <a name="input_key_vault_enabled_for_disk_encryption"></a> [key\_vault\_enabled\_for\_disk\_encryption](#input\_key\_vault\_enabled\_for\_disk\_encryption) | Specifies whether Azure Disk Encryption is permitted to retrieve secrets from the vault and unwrap keys. | `bool` | n/a | yes |
 | <a name="input_key_vault_location"></a> [key\_vault\_location](#input\_key\_vault\_location) | The location/region where the Key Vault should be created | `string` | n/a | yes |
 | <a name="input_key_vault_name"></a> [key\_vault\_name](#input\_key\_vault\_name) | The name of the Key Vault | `string` | n/a | yes |
-| <a name="input_key_vault_network_acls"></a> [key\_vault\_network\_acls](#input\_key\_vault\_network\_acls) | A list of network ACLs for the Key Vault | <pre>list(object({<br/>    bypass                     = list(string)<br/>    default_action             = string<br/>    ip_rules                   = list(string)<br/>    virtual_network_subnet_ids = list(string)<br/>  }))</pre> | n/a | yes |
+| <a name="input_key_vault_network_acls"></a> [key\_vault\_network\_acls](#input\_key\_vault\_network\_acls) | A list of network ACLs for the Key Vault | `map` | `{}` | no |
 | <a name="input_key_vault_network_acls_deny_all"></a> [key\_vault\_network\_acls\_deny\_all](#input\_key\_vault\_network\_acls\_deny\_all) | Specifies whether to deny all network traffic to the Key Vault | `bool` | `true` | no |
 | <a name="input_key_vault_purge_protection_enabled"></a> [key\_vault\_purge\_protection\_enabled](#input\_key\_vault\_purge\_protection\_enabled) | Specifies whether 'soft delete' functionality is enabled for this key vault. | `bool` | n/a | yes |
 | <a name="input_key_vault_resource_group_name"></a> [key\_vault\_resource\_group\_name](#input\_key\_vault\_resource\_group\_name) | The name of the Resource Group in which the Key Vault should be created | `string` | n/a | yes |
