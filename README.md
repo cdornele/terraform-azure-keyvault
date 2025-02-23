@@ -3,13 +3,13 @@
 
 | Name | Version |
 |------|---------|
-| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | 4.10.0 |
+| <a name="requirement_azurerm"></a> [azurerm](#requirement\_azurerm) | > 4.10.0 |
 
 ## Providers
 
 | Name | Version |
 |------|---------|
-| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | 4.10.0 |
+| <a name="provider_azurerm"></a> [azurerm](#provider\_azurerm) | > 4.10.0 |
 
 ## Modules
 
@@ -19,7 +19,7 @@ No modules.
 
 | Name | Type |
 |------|------|
-| [azurerm_key_vault.this](https://registry.terraform.io/providers/hashicorp/azurerm/4.10.0/docs/resources/key_vault) | resource |
+| [azurerm_key_vault.this](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/key_vault) | resource |
 
 ## Inputs
 
@@ -40,8 +40,8 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_key_vault_id"></a> [key\_vault\_id](#output\_key\_vault\_id) | The ID of the Key Vault |
-| <a name="output_key_vault_location"></a> [key\_vault\_location](#output\_key\_vault\_location) | The location/region where the Key Vault is created |
-| <a name="output_key_vault_name"></a> [key\_vault\_name](#output\_key\_vault\_name) | The name of the Key Vault |
-| <a name="output_key_vault_uri"></a> [key\_vault\_uri](#output\_key\_vault\_uri) | The URI of the Key Vault |
+| <a name="output_id"></a> [id](#output\_id) | The ID of the Key Vault |
+| <a name="output_location"></a> [location](#output\_location) | The location/region where the Key Vault is created |
+| <a name="output_name"></a> [name](#output\_name) | The name of the Key Vault |
+| <a name="output_uri"></a> [uri](#output\_uri) | The URI of the Key Vault |
 <!-- END_TF_DOCS -->
