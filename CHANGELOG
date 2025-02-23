@@ -7,3 +7,7 @@
   - single key vault
   - key vault with acls
 
+# Version 1.0.1
+
+- Fixed providers.
+- Fixed outputs.
